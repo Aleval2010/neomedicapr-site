@@ -631,8 +631,8 @@ p { color: var(--ink-soft); }
         <p class="lead" data-i18n="home.lead">NeoMedica connects Puerto Rico's bilingual clinical talent and technology to U.S. healthcare — delivering Remote Patient Monitoring and chronic care, building the platform that powers it, and growing a technology-enabled health industry on the island.</p>
         <div class="hero-cta">
           <a class="btn btn-primary btn-lg" data-route="medhub" href="#medhub" data-i18n="home.ctaHub">Explore MedHub</a>
+          <a class="btn btn-orange btn-lg" data-route="nurses" href="#nurses" data-i18n="home.ctaNurse">For Nurses</a>
           <a class="btn btn-ghost btn-lg" data-route="providers" href="#providers" data-i18n="home.ctaProvider">For Providers</a>
-          <a class="btn btn-ghost btn-lg" data-route="nurses" href="#nurses" data-i18n="home.ctaNurse">For Nurses</a>
         </div>
         <div class="hero-trust">
           <span class="pill"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/><path d="M9 12l2 2 4-4"/></svg><span data-i18n="home.trust1">HIPAA / HITECH</span></span>
@@ -852,7 +852,7 @@ p { color: var(--ink-soft); }
         <h2 data-i18n="nurses.whyH2">Stay rooted. Work remotely. Be supported.</h2>
         <ul class="checklist">
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg><span data-i18n="nurses.why1"><strong>Work from Puerto Rico</strong> — remote RPM nursing for U.S. providers, no relocation required.</span></li>
-          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg><span data-i18n="nurses.why2"><strong>W-2 employment</strong> with real benefits — not unstable 1099 contracting.</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg><span data-i18n="nurses.why2"><strong>Stable employment</strong> — as a W-2 employee or contractor — with the flexibility to take on other nursing engagements.</span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg><span data-i18n="nurses.why3"><strong>We handle your credentialing</strong> — licensure verification and compliance, managed for you.</span></li>
           <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg><span data-i18n="nurses.why4"><strong>Use your bilingual skills</strong> — serving English- and Spanish-speaking patients is an asset, not a barrier.</span></li>
         </ul>
@@ -863,7 +863,7 @@ p { color: var(--ink-soft); }
           <div class="big-cap" data-i18n="nurses.panelCap">Remote — your commute is the next room over</div>
           <hr />
           <div class="panel-mini">
-            <div class="m"><div class="mn">W-2</div><div class="mc" data-i18n="nurses.panel1">Employed, not contracted</div></div>
+            <div class="m"><div class="mn">W-2 / Contract</div><div class="mc" data-i18n="nurses.panel1">Stable, flexible options</div></div>
             <div class="m"><div class="mn">RN · LPN</div><div class="mc" data-i18n="nurses.panel2">Both licenses welcome</div></div>
           </div>
         </div>
@@ -878,7 +878,7 @@ p { color: var(--ink-soft); }
         <h2 data-i18n="nurses.reqH2">Requirements to apply</h2>
       </div>
       <div class="cards">
-        <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg></div><h3 data-i18n="nurses.req1h">Active U.S. license</h3><p data-i18n="nurses.req1p">A current, unencumbered RN or LPN license. We'll help verify it through Nursys during onboarding.</p></div>
+        <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 9h10M7 13h6"/></svg></div><h3 data-i18n="nurses.req1h">Active U.S. or Puerto Rico license</h3><p data-i18n="nurses.req1p">A current, unencumbered RN or LPN license. We'll help verify it through Nursys during onboarding.</p></div>
         <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div><h3 data-i18n="nurses.req2h">Clinical experience</h3><p data-i18n="nurses.req2p">Prior patient-care experience. RPM, chronic care, or telehealth background is a plus but not required.</p></div>
         <div class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 8h14M5 8a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v1a2 2 0 0 1-2 2M5 8v11a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8"/></svg></div><h3 data-i18n="nurses.req3h">Reliable home setup</h3><p data-i18n="nurses.req3p">A private space and stable internet for secure, HIPAA-compliant remote patient monitoring.</p></div>
       </div>
@@ -1311,6 +1311,12 @@ p { color: var(--ink-soft); }
               <select name="languages"><option data-i18n="apply.lang1">Bilingual — English &amp; Spanish</option><option data-i18n="apply.lang2">Spanish primary</option><option data-i18n="apply.lang3">English primary</option></select>
             </div>
             <div class="field"><label data-i18n="apply.fNotes">Anything else we should know?</label><textarea name="notes"></textarea></div>
+            <div class="field">
+              <label data-i18n="apply.fResume">Resume <span style="font-weight:400;color:var(--ink-soft)">(optional)</span></label>
+              <input type="file" name="resume" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" />
+              <p class="form-note" data-i18n="apply.resumeNote">PDF, DOC, or DOCX — up to 6 MB.</p>
+              <span class="err" id="resumeErr" style="display:none;color:#c0432a;font-size:.8rem" data-i18n="apply.eResume">Please upload a PDF or Word file under 6 MB.</span>
+            </div>
             <div class="field" style="display:flex;gap:.65rem;align-items:flex-start">
               <input type="checkbox" name="consent" required style="width:auto;margin-top:.35rem" />
               <label style="font-weight:400;color:var(--ink-soft);margin:0" data-i18n="apply.consent">I confirm the information above is accurate and consent to NeoMedica contacting me and verifying my credentials.</label>
@@ -1486,6 +1492,8 @@ const CONFIG = {
 
   contactEmail: "info@neomedicapr.com",
   careersEmail: "careers@neomedicapr.com",
+  // Resume upload — Google Apps Script Web App URL (nurse application resumes).
+  resumeEndpoint: "https://script.google.com/macros/s/AKfycbx9DHPxhGR1a1yOaIaZJ2Pl_xxTcxmPPRD_59dKi4k-YjfQ3ctznjGkUvE8VcalYTJj/exec",
   phone:        "1 (787) 945-7120",
   location:     "San Juan, Puerto Rico",
 
@@ -1675,10 +1683,10 @@ const I18N = {
 
     "nurses.ey":"For Nurses","nurses.h1":"A U.S. nursing career, from right here at home.","nurses.lead":"NeoMedica connects Puerto Rico's talented RNs and LPNs with meaningful remote work supporting U.S. patients — mainland-caliber opportunity without leaving the island.","nurses.apply":"Start your application",
     "nurses.whyEy":"Why nurses choose NeoMedica","nurses.whyH2":"Stay rooted. Work remotely. Be supported.",
-    "nurses.why1":"<strong>Work from Puerto Rico</strong> — remote RPM nursing for U.S. providers, no relocation required.","nurses.why2":"<strong>W-2 employment</strong> with real benefits — not unstable 1099 contracting.","nurses.why3":"<strong>We handle your credentialing</strong> — licensure verification and compliance, managed for you.","nurses.why4":"<strong>Use your bilingual skills</strong> — serving English- and Spanish-speaking patients is an asset, not a barrier.",
-    "nurses.panelCap":"Remote — your commute is the next room over","nurses.panel1":"Employed, not contracted","nurses.panel2":"Both licenses welcome",
+    "nurses.why1":"<strong>Work from Puerto Rico</strong> — remote RPM nursing for U.S. providers, no relocation required.","nurses.why2":"<strong>Stable employment</strong> — as a W-2 employee or contractor — with the flexibility to take on other nursing engagements.","nurses.why3":"<strong>We handle your credentialing</strong> — licensure verification and compliance, managed for you.","nurses.why4":"<strong>Use your bilingual skills</strong> — serving English- and Spanish-speaking patients is an asset, not a barrier.",
+    "nurses.panelCap":"Remote — your commute is the next room over","nurses.panel1":"Stable, flexible options","nurses.panel2":"Both licenses welcome",
     "nurses.reqEy":"What you'll need","nurses.reqH2":"Requirements to apply",
-    "nurses.req1h":"Active U.S. license","nurses.req1p":"A current, unencumbered RN or LPN license. We'll help verify it through Nursys during onboarding.",
+    "nurses.req1h":"Active U.S. or Puerto Rico license","nurses.req1p":"A current, unencumbered RN or LPN license. We'll help verify it through Nursys during onboarding.",
     "nurses.req2h":"Clinical experience","nurses.req2p":"Prior patient-care experience. RPM, chronic care, or telehealth background is a plus but not required.",
     "nurses.req3h":"Reliable home setup","nurses.req3p":"A private space and stable internet for secure, HIPAA-compliant remote patient monitoring.",
     "nurses.howEy":"Your path in","nurses.howH2":"From application to first shift",
@@ -1721,7 +1729,7 @@ const I18N = {
     "apply.fLicType":"License type","apply.fLicNum":"License number","apply.fState":"Licensing state","apply.fYears":"Years of experience","apply.fSpecialty":"Primary specialty / background",
     "apply.fAvail":"Availability","apply.avail1":"Full-time","apply.avail2":"Part-time","apply.avail3":"Per-diem / flexible",
     "apply.fBilingual":"Language fluency","apply.lang1":"Bilingual — English & Spanish","apply.lang2":"Spanish primary","apply.lang3":"English primary",
-    "apply.fNotes":"Anything else we should know?","apply.consent":"I confirm the information above is accurate and consent to NeoMedica contacting me and verifying my credentials.",
+    "apply.fNotes":"Anything else we should know?","apply.fResume":"Resume <span style=\"font-weight:400;color:var(--ink-soft)\">(optional)</span>","apply.resumeNote":"PDF, DOC, or DOCX — up to 6 MB.","apply.eResume":"Please upload a PDF or Word file under 6 MB.","apply.consent":"I confirm the information above is accurate and consent to NeoMedica contacting me and verifying my credentials.",
     "apply.optSelect":"Select…","apply.eReq":"Required.","apply.eEmail":"Enter a valid email.","apply.eConsent":"Please confirm to continue.",
     "apply.back":"Back","apply.next":"Continue","apply.submit":"Submit application","apply.successH":"Application received","apply.successP":"Thank you for applying to NeoMedica. Our team will review your application and follow up within two business days with next steps.",
 
@@ -1786,10 +1794,10 @@ const I18N = {
 
     "nurses.ey":"Para Enfermeros","nurses.h1":"Una carrera de enfermería en EE. UU., desde tu hogar.","nurses.lead":"NeoMedica conecta a los talentosos RN y LPN de Puerto Rico con trabajo remoto significativo apoyando a pacientes de EE. UU. — oportunidad de nivel continental sin dejar la isla.","nurses.apply":"Comienza tu solicitud",
     "nurses.whyEy":"Por qué los enfermeros eligen NeoMedica","nurses.whyH2":"Quédate en casa. Trabaja remoto. Con apoyo.",
-    "nurses.why1":"<strong>Trabaja desde Puerto Rico</strong> — enfermería RPM remota para proveedores de EE. UU., sin reubicación.","nurses.why2":"<strong>Empleo W-2</strong> con beneficios reales — no contratación 1099 inestable.","nurses.why3":"<strong>Gestionamos tu credencialización</strong> — verificación de licencia y cumplimiento, gestionados por ti.","nurses.why4":"<strong>Usa tus habilidades bilingües</strong> — atender pacientes en inglés y español es una ventaja, no una barrera.",
-    "nurses.panelCap":"Remoto — tu trayecto es el cuarto de al lado","nurses.panel1":"Empleado, no contratado","nurses.panel2":"Ambas licencias bienvenidas",
+    "nurses.why1":"<strong>Trabaja desde Puerto Rico</strong> — enfermería RPM remota para proveedores de EE. UU., sin reubicación.","nurses.why2":"<strong>Empleo estable</strong> — como empleado W-2 o contratista — con la flexibilidad de tomar otros trabajos de enfermería.","nurses.why3":"<strong>Gestionamos tu credencialización</strong> — verificación de licencia y cumplimiento, gestionados por ti.","nurses.why4":"<strong>Usa tus habilidades bilingües</strong> — atender pacientes en inglés y español es una ventaja, no una barrera.",
+    "nurses.panelCap":"Remoto — tu trayecto es el cuarto de al lado","nurses.panel1":"Opciones estables y flexibles","nurses.panel2":"Ambas licencias bienvenidas",
     "nurses.reqEy":"Lo que necesitarás","nurses.reqH2":"Requisitos para aplicar",
-    "nurses.req1h":"Licencia activa de EE. UU.","nurses.req1p":"Una licencia RN o LPN vigente y sin restricciones. Te ayudamos a verificarla por Nursys durante la incorporación.",
+    "nurses.req1h":"Licencia activa de EE. UU. o Puerto Rico","nurses.req1p":"Una licencia RN o LPN vigente y sin restricciones. Te ayudamos a verificarla por Nursys durante la incorporación.",
     "nurses.req2h":"Experiencia clínica","nurses.req2p":"Experiencia previa en cuidado de pacientes. Experiencia en RPM, cuidado crónico o telesalud es un plus, pero no requerida.",
     "nurses.req3h":"Espacio confiable en casa","nurses.req3p":"Un espacio privado e internet estable para monitoreo remoto seguro y conforme con HIPAA.",
     "nurses.howEy":"Tu camino","nurses.howH2":"De la solicitud al primer turno",
@@ -1832,7 +1840,7 @@ const I18N = {
     "apply.fLicType":"Tipo de licencia","apply.fLicNum":"Número de licencia","apply.fState":"Estado de licencia","apply.fYears":"Años de experiencia","apply.fSpecialty":"Especialidad / experiencia principal",
     "apply.fAvail":"Disponibilidad","apply.avail1":"Tiempo completo","apply.avail2":"Medio tiempo","apply.avail3":"Por día / flexible",
     "apply.fBilingual":"Fluidez de idioma","apply.lang1":"Bilingüe — Inglés y Español","apply.lang2":"Español principal","apply.lang3":"Inglés principal",
-    "apply.fNotes":"¿Algo más que debamos saber?","apply.consent":"Confirmo que la información es correcta y consiento que NeoMedica me contacte y verifique mis credenciales.",
+    "apply.fNotes":"¿Algo más que debamos saber?","apply.fResume":"Currículum <span style=\"font-weight:400;color:var(--ink-soft)\">(opcional)</span>","apply.resumeNote":"PDF, DOC o DOCX — hasta 6 MB.","apply.eResume":"Sube un archivo PDF o Word de menos de 6 MB.","apply.consent":"Confirmo que la información es correcta y consiento que NeoMedica me contacte y verifique mis credenciales.",
     "apply.optSelect":"Seleccione…","apply.eReq":"Requerido.","apply.eEmail":"Ingrese un correo válido.","apply.eConsent":"Por favor confirme para continuar.",
     "apply.back":"Atrás","apply.next":"Continuar","apply.submit":"Enviar solicitud","apply.successH":"Solicitud recibida","apply.successP":"Gracias por aplicar a NeoMedica. Nuestro equipo revisará tu solicitud y te contactará en dos días hábiles con los próximos pasos.",
 
@@ -2157,6 +2165,31 @@ function renderCoverageMap() {
     return r.json().catch(() => ({}));
   }
 
+  // Upload the (optional) resume to the Apps Script Web App, alongside the form data.
+  async function submitResume(applyData, input) {
+    const url = CONFIG.resumeEndpoint;
+    if (!url || !input || !input.files || !input.files.length) return; // nothing to upload
+    const file = input.files[0];
+    const b64 = await new Promise((res, rej) => {
+      const r = new FileReader();
+      r.onload = () => res(String(r.result).split(",")[1] || "");
+      r.onerror = () => rej(new Error("read failed"));
+      r.readAsDataURL(file);
+    });
+    const ext = (file.name.split(".").pop() || "pdf").toLowerCase();
+    const payload = {
+      name: ((applyData.first || "") + " " + (applyData.last || "")).trim(),
+      email: applyData.email || "",
+      phone: applyData.phone || "",
+      fileName: file.name,
+      mimeType: file.type || "application/octet-stream",
+      ext: ext,
+      fileBase64: b64,
+    };
+    // no-cors + plain body avoids a CORS preflight to Apps Script; response is opaque.
+    await fetch(url, { method: "POST", mode: "no-cors", body: JSON.stringify(payload) });
+  }
+
   function formData(form) {
     const o = {};
     new FormData(form).forEach((v, k) => { o[k] = v; });
@@ -2225,10 +2258,24 @@ function renderCoverageMap() {
       const consentErr = document.getElementById("consentErr");
       let ok = validateScope(cur);
       if (!consent.checked) { consentErr.style.display = "block"; ok = false; } else { consentErr.style.display = "none"; }
+
+      // Optional resume: validate size/type if a file was chosen
+      const resumeInput = applyForm.querySelector('input[name=resume]');
+      const resumeErr = document.getElementById("resumeErr");
+      const MAX_RESUME = 6 * 1024 * 1024; // 6 MB
+      if (resumeErr) resumeErr.style.display = "none";
+      if (resumeInput && resumeInput.files && resumeInput.files.length) {
+        const f = resumeInput.files[0];
+        const okExt = /\.(pdf|docx?|)$/i.test(f.name);
+        if (f.size > MAX_RESUME || !okExt) { if (resumeErr) resumeErr.style.display = "block"; ok = false; }
+      }
       if (!ok) return;
+
       btnSubmit.disabled = true; const orig = btnSubmit.textContent; btnSubmit.textContent = "…";
       try {
-        await submitToBackend("apply", formData(applyForm));
+        const data = formData(applyForm);
+        await submitToBackend("apply", data);
+        try { await submitResume(data, resumeInput); } catch (rerr) { console.warn("resume upload issue:", rerr); }
         applyForm.style.display = "none";
         document.getElementById("stepbar").style.display = "none";
         document.getElementById("stepLabel").style.display = "none";
